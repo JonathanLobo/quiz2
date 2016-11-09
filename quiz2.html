@@ -1,41 +1,68 @@
-<doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-400000">
-	
-</head>
-<body>
-	<h1>Welcome To The Wonderful World of Debugging Code</h1>
+	<head>
+		<meta charset="UTF-8">
 
-	<section id="mainSection">
-		<p>This is a paragraph, I promise.</p
+		<title>Quiz 2</title>
 
-		<ul class="links">
-			<li>
-				<a>Link 1<a>
-			</li>
-			<li>
-				<a href="#">Link 2</a>
-			</li>
-			<li>
-				<a href="#">Link 487
-			</li>
-		</ul>
-	
+		<link href="./css/quiz2.css" rel="stylesheet">
 
-	<p>I am a lonely paragraph, with no immediate parent.</p>
+	</head>
+	<body>
+		<h1 id="title">Welcome To The Wonderful World of Debugging Code</h1>
 
-	<section id=secondarySection>
-		<p>Woop woop!!!</p>
-		<p>See how elegantly we're spaced out?</p>
-		<p>Yeah, we're spaced out alright.<//p>
-		
-		<ol>
-			<li>I'm like an unordered list</li>	
-			<li>But I'm more orderly<li>
-			<li>That was a really bad joke.</li>
-		<ol>
-	</section>
-	
-</body>
-</hmtl>
+		<section id="mainSection">
+			<p>This is a paragraph, I promise.</p>
+
+			<ul class="links">
+				<li>
+					<a href="#">Link 1</a>
+				</li>
+				<li>
+					<a href="#">Link 2</a>
+				</li>
+				<li>
+					<a href="#">Link 487</a>
+				</li>
+			</ul>
+		</section id="mainSection">
+
+
+		<p>I am a lonely paragraph, with no immediate parent.</p>
+
+		<section id="secondarySection">
+			<p>Woop woop!!!</p>
+			<p>See how elegantly we're spaced out?</p>
+			<p>Yeah, we're spaced out alright.</p>
+
+			<ol id="orderedList">
+				<li>I'm like an unordered list</li>
+				<li>But I'm more orderly</li>
+				<li>That was a really bad joke.</li>
+			</ol>
+		</section>
+
+		<button class="accordionButton" id="accordion1">Section 1</button>
+		<section class="accordionPanel" id="panel1">
+		  <p>Accordion section 1...</p>
+		</section>
+
+		<button class="accordionButton" id="accordion2">Section 2</button>
+		<section class="accordionPanel" id="panel2">
+		  <p>Accordion section 2...</p>
+		</section>
+
+		<button class="accordionButton" id="accordion3">Section 3</button>
+		<section class="accordionPanel" id="panel3">
+		  <p>Accordion section 3...</p>
+		</section>
+
+		<br><br>
+
+		<button id="goodbye">Kaboom!</button>
+
+		<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+		<script src="./js/quiz2.js"></script>
+
+	</body>
+</html>
